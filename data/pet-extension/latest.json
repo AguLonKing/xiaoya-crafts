@@ -1,0 +1,10 @@
+{
+  "plugin": "xiaoya-pet-extension",
+  "version": "1.0.0",
+  "date": "2026-11-21",
+  "url": "https://github.com/AguLonKing/xiaoya-crafts/releases/download/v1.0.0/xiaoya-pet-extension-1.0.0-core.zip",
+  "full": "https://github.com/AguLonKing/xiaoya-crafts/releases/download/v1.0.0/xiaoya-pet-extension-1.0.0-full.zip",
+  "sha256": "958ff114905e3ba37eb52c453aa84c306613d425ae4ff59728f2ffb83d658491",
+  "sizeBytes": 1550645,
+  "notes": "首个公开版本：Live Captions 听写、双语字幕、前台窗口译图与更新器。"
+}

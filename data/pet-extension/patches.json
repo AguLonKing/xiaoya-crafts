@@ -1,0 +1,16 @@
+{
+  "plugin": "xiaoya-pet-extension",
+  "items": [
+    {
+      "id": "1.0.0",
+      "version": "1.0.0",
+      "date": "2026-11-21",
+      "type": "initial",
+      "title": "初始发布包",
+      "sizeBytes": 1550645,
+      "download": "https://github.com/AguLonKing/xiaoya-crafts/releases/download/v1.0.0/xiaoya-pet-extension-1.0.0-core.zip",
+      "sha256": "958ff114905e3ba37eb52c453aa84c306613d425ae4ff59728f2ffb83d658491",
+      "notes": "首个公开版本；核心升级包，含感官与翻译代码。"
+    }
+  ]
+}

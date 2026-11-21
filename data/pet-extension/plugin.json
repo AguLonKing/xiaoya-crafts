@@ -1,0 +1,28 @@
+{
+  "id": "xiaoya-pet-extension",
+  "name": "小鸦的桌宠扩展插件",
+  "version": "1.0.0",
+  "channel": "stable",
+  "summary": "为 BUG Clicker 桌宠增加看屏幕、听声音、Live Captions 翻译与译图能力，独立于 QQ/DSH 人设框架。",
+  "features": [
+    "Windows Live Captions 英文字幕读取 + 中文翻译",
+    "前台窗口 OCR → 中文覆盖 → 翻译图片",
+    "桌宠双语气泡 / 屏幕边界自适应字幕层",
+    "前台窗口截图、Live Captions、免 token 翻译",
+    "内置更新器，可从制品站拉取新版本/补丁"
+  ],
+  "requires": [
+    "Windows 11",
+    "BUG Clicker",
+    "Node.js（包内附带 node.exe）",
+    "Python 3.12（首次安装依赖）"
+  ],
+  "downloads": {
+    "lite": "https://github.com/AguLonKing/xiaoya-crafts/releases/download/v1.0.0/xiaoya-pet-extension-1.0.0-lite.zip",
+    "core": "https://github.com/AguLonKing/xiaoya-crafts/releases/download/v1.0.0/xiaoya-pet-extension-1.0.0-core.zip",
+    "full": "https://github.com/AguLonKing/xiaoya-crafts/releases/download/v1.0.0/xiaoya-pet-extension-1.0.0-full.zip"
+  },
+  "license": "MIT（第三方依赖遵循各自许可）",
+  "repo": "",
+  "updatedAt": "2026-11-21T15:20:00+08:00"
+}

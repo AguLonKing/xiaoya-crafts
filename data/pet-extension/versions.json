@@ -1,0 +1,35 @@
+{
+  "plugin": "xiaoya-pet-extension",
+  "current": "1.0.0",
+  "items": [
+    {
+      "version": "1.0.0",
+      "date": "2026-11-21",
+      "type": "initial",
+      "title": "最初版本",
+      "summary": "桌宠扩展 1.0：感官与翻译从 bot 框架剥离。",
+      "changes": [
+        "独立启动，不含 QQ / DSH 人设",
+        "Live Captions 读取与中文翻译",
+        "屏幕前台窗口 OCR → 译图",
+        "屏幕边界自适应的双语字幕层",
+        "内置更新器与制品站版本清单"
+      ],
+      "download": {
+        "lite": "https://github.com/AguLonKing/xiaoya-crafts/releases/download/v1.0.0/xiaoya-pet-extension-1.0.0-lite.zip",
+        "core": "https://github.com/AguLonKing/xiaoya-crafts/releases/download/v1.0.0/xiaoya-pet-extension-1.0.0-core.zip",
+        "full": "https://github.com/AguLonKing/xiaoya-crafts/releases/download/v1.0.0/xiaoya-pet-extension-1.0.0-full.zip"
+      },
+      "sha256": {
+        "lite": "958ff114905e3ba37eb52c453aa84c306613d425ae4ff59728f2ffb83d658491",
+        "core": "958ff114905e3ba37eb52c453aa84c306613d425ae4ff59728f2ffb83d658491",
+        "full": "2f8a8b611e84277197e6cdea3a21f4c0e20385f4d1e3d2a0e93fbb5a7c580651"
+      },
+      "sizes": {
+        "lite": 1550645,
+        "core": 1550645,
+        "full": 360873388
+      }
+    }
+  ]
+}
