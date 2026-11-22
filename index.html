@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
@@ -13,7 +13,7 @@
 <div class="aurora a1"></div><div class="aurora a2"></div><div class="aurora a3"></div>
 <header class="nav">
   <a class="brand" href="#top"><img src="assets/logo.svg" alt=""><span>小鸦的制品<small>YACHAO / 鸦巢</small></span></a>
-  <nav><a href="#pet">桌宠专区</a><a href="#versions">版本</a><a href="#patches">补丁</a><a href="#about">关于</a></nav>
+  <nav><a href="#pet">桌宠专区</a><a href="#versions">版本</a><a href="#patches">补丁</a><a href="vault/">宝库</a><a href="#about">关于</a></nav>
 </header>
 
 <main id="top">
@@ -24,6 +24,7 @@
       <p class="lead">这里是「小鸦的制品」——桌宠扩展、感官工具、文档和小玩具的星海工坊。手机和电脑都能打开，不需要任何模型 token，也不要求在同一网络。</p>
       <div class="hero-actions">
         <a class="jelly primary" href="#pet">进入桌宠专区 <span>↗</span></a>
+        <a class="jelly ghost" href="vault/">进入宝库 <span>⌁</span></a>
         <a class="jelly ghost" href="#versions">看版本与补丁</a>
       </div>
       <div class="micro">当前制品 · 小鸦的桌宠扩展插件 1.0</div>
@@ -64,8 +65,22 @@
     <div class="patch-list" id="patchList"></div>
   </section>
 
+  <section id="vault" class="section vault-section">
+    <div class="section-head"><div class="kicker">04 / VAULT</div><h2>宝库</h2><p>需要密码或专属 API Key 才能打开的独立分区。这里存放带实时修订与批注的台本、资料和只对成员开放的内容。</p></div>
+    <div class="vault-teaser jelly-card">
+      <div class="vault-teaser-mark" aria-hidden="true">⌁</div>
+      <div class="vault-teaser-body">
+        <div class="pills"><span class="pill">独立分区</span><span class="pill">密码 / API Key</span><span class="pill">实时协作</span></div>
+        <h3>four&amp;4th · 台本宝箱</h3>
+        <p>A Guide to Chinese Culture and Etiquette · 5.5 台本。原文只读，成员可以逐行提交英文/中文修订、写批注，并用红/紫荧光标出重点；所有改动实时同步。</p>
+        <a class="jelly primary" href="vault/">打开宝库 <span>↗</span></a>
+      </div>
+      <div class="vault-teaser-lock">🔒</div>
+    </div>
+  </section>
+
   <section id="about" class="section about">
-    <div class="section-head"><div class="kicker">04 / ABOUT</div><h2>关于小鸦的制品</h2></div>
+    <div class="section-head"><div class="kicker">05 / ABOUT</div><h2>关于小鸦的制品</h2></div>
     <div class="about-grid">
       <div class="glass"><strong>不依赖 token</strong><p>制品本身开放浏览、下载和使用说明；桌宠翻译默认使用系统能力与免密钥翻译，不把 token 带进制品。</p></div>
       <div class="glass"><strong>跨设备</strong><p>静态站，手机、平板、电脑都能打开。没有同网络限制，也没有本地端口要求。</p></div>
